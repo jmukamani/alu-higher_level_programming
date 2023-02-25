@@ -10,7 +10,7 @@ if __name__ == "__main__":
         argstr = argstr + 's.'
     elif lengthofargs == 1:
          argstr = argstr + ':'
-     else:
+    else:
          argstr = argstr + 's:'
 
          print(lengthofargs, argstr)
