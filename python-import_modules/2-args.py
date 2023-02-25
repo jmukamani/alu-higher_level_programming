@@ -2,19 +2,14 @@
 import sys
 
 if __name__ == "__main__":
-    args = sys.argv[1:]
-    argstr = 'argument'
-    lengthofargs = len(args)
-
-    if lengthofargs == 0:
-        argstr = argstr + 's.'
-    elif lengthofargs == 1:
-         argstr = argstr + ':'
+    """Print the number of and list of arguments."""
+    import sys
+    count = len(sys.argv) - 1
+    if count == 0:
+        print("0 arguments.")
+    elif count == 1:
+        print("1 argument:")
     else:
-         argstr = argstr + 's:'
-
-         print(lengthofargs, argstr)
-
-         if lengthofargs > 0:
-             for i in range(lengthofargs):
-                 print('{}: {}'.format(i+1, args[i]))
+        print("{} arguments:".format(count))
+        for i in range(count):
+            print("{}: {}".format(i + 1, sys.argv[i + 1))
