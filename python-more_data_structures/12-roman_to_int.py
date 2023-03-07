@@ -8,6 +8,7 @@ def to_subtract(list_num):
             to_sub += n
     return (max_list - to_sub)
 
+
 def roman_to_int(roman_string):
     if not roman_string:
         return 0
@@ -28,8 +29,8 @@ def roman_to_int(roman_string):
                     num += to_subtract(list_num)
                     list_num = [rom_no.get(ch)]
                 else:
-                    list_num.append(rom_no.get(ch))
-            
+                    list_num.append(rom_no.get(ch)
+                            
                 last_rom = rom_no.get(ch)
 
     num += to_subtract(list_num)
