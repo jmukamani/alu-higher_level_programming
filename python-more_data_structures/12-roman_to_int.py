@@ -26,7 +26,7 @@ def roman_to_int(roman_string):
             if r_num == ch:
                 if rom_no.get(ch) <= last_rom:
                     num += to_subtract(list_num)
-                    list_num + [rom_no.get(ch)]
+                    list_num = [rom_no.get(ch)]
                 else:
                     list_num.append(rom_no.get(ch))
             
