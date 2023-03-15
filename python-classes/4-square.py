@@ -6,10 +6,10 @@ class Square:
     """Defines a square"""
 
     def __init__(self, size=0):
-         """Iniatializes a new instance of the class square with given size.
+        """Iniatializes a new instance of the class square with given size.
             The size of the square defaults to 0.
          """
-         self.__size = size
+        self.__size = size
 
     def area(self):
         """Returns area of the square."""
@@ -22,7 +22,8 @@ class Square:
 
     @size.setter
     def size(self, value):
-        """Setter method for the __size attribute.Raises TypeError or ValueError"""
+        """Setter method for the __size attribute.Raises TypeError or ValueError.
+        """
 
         if not isinstance(value, int):
             raise TypeError("size must be an integer")
