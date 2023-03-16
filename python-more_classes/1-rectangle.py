@@ -4,7 +4,7 @@
 
 class Rectangle:
     """This module defines a class attribute Rectangle."""
-    
+
     def __init__(self, width=0, height=0):
         """Initialize an instance of the Rectangle with width and height.
         """
@@ -36,5 +36,5 @@ class Rectangle:
         if not isinstance(value, int):
             raise TypeError("height must be an integer")
         elif value < 0:
-            raise ValueError("height must be >=0")
+            raise ValueError("height must be >= 0")
         self.__height = value
