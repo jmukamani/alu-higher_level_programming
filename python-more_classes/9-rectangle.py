@@ -7,6 +7,9 @@ class Rectangle:
 
     number_of_instances = 0
     print_symbol = "#"
+    """Iniatialize class Rectangle with 
+    number_of_instances and print_symbol.
+    """
 
     @classmethod
     def square(cls, size=0):
