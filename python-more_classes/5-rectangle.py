@@ -3,8 +3,8 @@
 
 
 class Rectangle:
+    """This defines a class Rectangle."""
     def __init__(self, width=0, height=0):
-        """This defines class attribute with width and height."""
         self.width = width
         self.height = height
     
