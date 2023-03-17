@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""This module represente a rectangle."""
+"""This module represents a rectangle."""
 
 
 class Rectangle:
