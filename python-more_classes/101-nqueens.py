@@ -51,4 +51,4 @@ if __name__ == "__main__":
                 else:
                     nqueens(x + 1)
 
-nqueens(0)
+    nqueens(0)

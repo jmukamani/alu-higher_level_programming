@@ -69,10 +69,10 @@ class Rectangle:
 
     def __str__(self):
         symbol = ""
-        if self.width == 0 or self.height == 0:
-            return ""
-        return symbol + "\n".join(str(self.print_symbol) * self.width
-                for i in range(self.height))
+        if self.width != 0 and self.height != 0:
+            symbol += "\n".join(str(self.print_symbol) * self.width
+                                for j in range(self.height))
+        return symbol
 
     def __repr__(self):
         return "Rectangle({}, {})".format(self.width, self.height)
