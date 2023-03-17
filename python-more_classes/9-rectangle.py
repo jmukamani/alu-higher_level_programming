@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-"""This module represents a Rectangle."""
+"""
+This module represents a Rectangle
+"""
 
 
 class Rectangle:
@@ -7,16 +9,16 @@ class Rectangle:
 
     number_of_instances = 0
     print_symbol = "#"
-    """Iniatialize class Rectangle with 
-    number_of_instances and print_symbol.
-    """
+    """Iniatialize class Rectangle"""
 
     @classmethod
     def square(cls, size=0):
+        """Returns a new instance of a rectangle."""
         return cls(size, size)
 
-   @staticmethod
+    @staticmethod
     def bigger_or_equal(rect_1, rect_2):
+        """Returns the biggest rectangle based on area."""
         if not isinstance(rect_1, Rectangle):
             raise TypeError("rect_1 must be an instance of Rectangle")
         if not isinstance(rect_2, Rectangle):
