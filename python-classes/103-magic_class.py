@@ -4,6 +4,7 @@
 
 import math
 
+
 class MagicClass:
     """Represents a circle."""
 
@@ -18,6 +19,6 @@ class MagicClass:
         """Calculate area of circle"""
         return (self.__radius ** 2) * math.pi
 
-    def circumferemce(self):
+    def circumference(self):
         """Calculates circumference of circle."""
         return (2 * math.pi * self.__radius)
