@@ -16,7 +16,7 @@ class Rectangle:
         if self.width == 0 or self.height == 0:
             return ""
         else:
-            return"\n".join(["#" * self.width for i in range (self.height)])
+            return"\n".join(["#" * self.width for i in range(self.height)])
 
     def __repr__(self):
         return "Rectangle({} {})".format(self.width, self.height)
