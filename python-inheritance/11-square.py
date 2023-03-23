@@ -9,6 +9,9 @@ class Square(Rectangle):
     def __init__(self, size):
         """Iniatialize a new square."""
 
-        self.integer_validator("size", size)
-        super().__init__(size, size)
+        super().integer_validator("size", size)
         self.__size = size
+        super().__init__(size, size)
+
+    def __str__(self):
+        return "[Square] {}/{}".format(self.__size, self.__sizeP

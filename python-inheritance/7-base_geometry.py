@@ -3,6 +3,8 @@
 
 
 class BaseGeometry:
+    """Defines a class BaseGeometry."""
+
     def area(self):
         """Raise Exception message."""
 
@@ -12,4 +14,4 @@ class BaseGeometry:
         if type(value) != int:
             raise TypeError("{} must be an integer".format(name))
         if value <= 0:
-            raise ValueEror("{} mustt be greater than 0".format(name))
+            raise ValueEror("{} must be greater than 0".format(name))
