@@ -1,7 +1,7 @@
 #!/usr/bin/python3
-"""JSON representation of an object(string)"""
+"""JSON representation of an object."""
 
 
-def to_json_strin(my_obj):
+def to_json_string(my_obj):
     """Function that returns JSON representation."""
     return json.dumps(my_obj)
