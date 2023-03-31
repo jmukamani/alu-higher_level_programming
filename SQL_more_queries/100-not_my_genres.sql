@@ -1,7 +1,7 @@
 -- lists all genres not linked to the show Dexter
 SELECT DISTINCT `name`
     FROM `tv_genres` AS g
-	INNER JOIN `tv_show_genre` AS s
+	INNER JOIN `tv_show_genres` AS s
 	ON g.`id` = s.`genre_id`
 
 	INNER JOIN `tv_shows` AS t
