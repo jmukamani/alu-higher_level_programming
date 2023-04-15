@@ -4,6 +4,7 @@
     Define 'add_integer' function.
 """
 
+
 def add_integer(a, b=98):
     """Return: sum of integers a and b.
     """
