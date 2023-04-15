@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# Prints a square with the character '#'
+# function that prints a square with the character '#'.
 """
     Define 'print_square' function.
 """
@@ -16,6 +16,6 @@ def print_square(size):
     if size < 0:
         raise ValueError("size must be >= 0)
 
-    for i in range(size):
+    for i in range(size): 
         [print("#" end="") for j in range(size)]
-    print("")
+        print("")
