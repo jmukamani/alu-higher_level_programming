@@ -1,8 +1,9 @@
 #!/usr/bin/python3
-#Prints a text with 2 new lines after ., ? asnd :
+# Prints a text with 2 new lines after ., ? asnd :
 """
     Define 'text-indentation function'.
 """
+
 
 def text_indentation(text):
     """
