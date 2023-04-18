@@ -9,14 +9,15 @@ import turtle
 
 
 class Base:
-    """Represents the base model.
+    """
+        Represents the base model.
         Represents the "base" for all the other classes in te project.
         Attrributes:
             __nb_objects (int): number of instantiated Bases.
     """
 
 
-     __nb_objects = 0
+    __nb_objects = 0
 
     def __init__(self, id=None):
         """
