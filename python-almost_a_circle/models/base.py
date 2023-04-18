@@ -16,7 +16,6 @@ class Base:
             __nb_objects (int): number of instantiated Bases.
     """
 
-
     __nb_objects = 0
 
     def __init__(self, id=None):
