@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 # A class 'Base'.
-"""This module represents a class base."""
+"""
+    This module represents a class base.
+"""
 import json
 import csv
 import turtle
