@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-#Function that multiplice two matrices by using module 'NumPy'
+# Function that multiplice two matrices by using module 'NumPy'.
 """
     Define lazy_matrix_mul' function using NumPy.
 """
