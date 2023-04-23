@@ -1,7 +1,7 @@
 #!/usr/bin/python3
-# script that takes in an argument and displays all values
+# script that takes in an argument and displays all values.
 """
-    import 'sys' & 'MySQLdb'
+    import sys & MySqldb
 """
 import sys
 import MySQLdb
