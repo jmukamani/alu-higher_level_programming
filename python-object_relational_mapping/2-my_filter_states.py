@@ -12,4 +12,4 @@ if __name__ == "__main__":
     c.execute("SELECT * \ 
                  FROM `states` \ 
                 WHERE BINARY `name` = '{}'".format(sys.argv[4]))
-    [print(state) for state in c.fetcha11()]
+    [print(state) for state in c.fetchall()]
