@@ -1,7 +1,10 @@
 #!/usr/bin/python3
 """
-    lists all State objects that contain the letter 
-    from the database hbtn_0e_6_usa
+Deletes all State objects with a name containing
+the letter a from the database hbtn_0e_6_usa.
+Usage: ./13-model_state_delete_a.py <mysql username> /
+                                    <mysql password> /
+                                    <database name>
 """
 import sys
 from sqlalchemy import create_engine
@@ -15,6 +18,7 @@ if __name__ == "__main__":
     Session = sessionmaker(bind=engine)
     session = Session()
 
-    for state in session.query(State).order_by(State.id):
+    for state in session.query(State):
         if "a" in state.name:
-            print("{}: {}".format(state.id, state.name))
+            session.delete(state)
+    session.commit()

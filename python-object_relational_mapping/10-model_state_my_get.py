@@ -1,7 +1,11 @@
 #!/usr/bin/python3
 """
-    prints the State object with the name passed as argument
-    from the database hbtn_0e_6_usa
+Lists the State object with the name passed as argument
+from the database hbtn_0e_6_usa.
+Usage: ./10-model_state_my_get.py <mysql username> /
+                                  <mysql password> /
+                                  <database name>
+                                  <state name searched>
 """
 import sys
 from sqlalchemy import create_engine
